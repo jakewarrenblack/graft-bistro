@@ -544,6 +544,24 @@ body[data-is-in-iframe]{
     overflow-y:scroll;
 }
 
+.ul-row{
+    display:flex;
+    align-items:center;
+    padding:0.5rem 0;
+}
+
+.ul-row:nth-child(3){
+    align-items:baseline;
+}
+
+.fa-contact{
+    margin-right:1rem;
+}
+
+.list-style-none{
+    list-style:none;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     .logo-contain{
