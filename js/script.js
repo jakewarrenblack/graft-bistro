@@ -17,7 +17,7 @@ window.addEventListener('load',function(){
     const gallery_curtain_close_button = this.document.getElementById('gallery-curtain-close-button');
     const gallery_curtain = this.document.getElementById("gallery-curtain");
 
-    var recaptcha = document.getElementById('rc-anchor-alert');
+    var recaptcha = document.getElementById('rc-anchor-container');
 
     if(recaptcha){
         recaptcha.style.width = "100%!important";
