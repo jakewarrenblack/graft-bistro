@@ -44,13 +44,15 @@
                 </div>  
                 <form name="contact" class="contact-form" netlify>
                     <label for="email">Email</label>
-                    <input name="email" id="email" class="contact-input" type="email" placeholder="name@email.com">
+                    <input name="email" id="email" class="contact-input" type="email" placeholder="name@email.com" required>
                     <label for="name">Name</label>
-                    <input name="name" id="name" class="contact-input" type="text" placeholder="Joe Bloggs">
+                    <input name="name" id="name" class="contact-input" type="text" placeholder="Joe Bloggs" required>
                     <label for="date">Date</label>
-                    <input name="date" type="date" id="date" min="2020-12-25">
+                    <input name="date" type="date" id="date" min="2020-12-25" required>
                     <label for="numGuests">How many people are coming?</label>
-                    <input name="numGuests" id="numGuests" type="number" step="1" min="1" max="20">
+                    <input name="numGuests" id="numGuests" type="number" step="1" min="1" max="20" required>
+                    <label for="message">Your Message (Not Required)</label>
+                    <textarea class="contact-input" name="message" id="message"></textarea>
                     <button class="form-submit" type ="submit">Submit</button>
                 </form>
             </div>

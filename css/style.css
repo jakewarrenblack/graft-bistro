@@ -129,7 +129,7 @@ p,li,small{
     width:100%;
 }
 
-input,label{
+input,label,textarea{
     margin:0.4rem 0;
 }
 
