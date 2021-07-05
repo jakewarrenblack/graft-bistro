@@ -137,6 +137,14 @@ input,label,textarea{
     margin:0.4rem 0;
 }
 
+textarea{
+    padding:0.75rem;
+}
+
+#date{
+    width:100%;
+}
+
 input{
     padding:1rem;
 }
