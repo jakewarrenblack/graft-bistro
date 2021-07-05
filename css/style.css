@@ -137,6 +137,10 @@ input{
     padding:1rem;
 }
 
+.bot-input{
+    display:none;
+}
+
 input[type="date"]{
     font-size:1.1rem;
     text-transform:uppercase;

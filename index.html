@@ -42,7 +42,7 @@
                 <div class="fa-bars-contain form-close">
                     <i id="form-curtain-close-button" class="fas fa-times"></i>         
                 </div>  
-                <form name="contact" class="contact-form" netlify>
+                <form netlify-honeypot="bot-input" data-netlify-recaptcha="true" name="contact" class="contact-form" netlify>
                     <label for="email">Email</label>
                     <input name="email" id="email" class="contact-input" type="email" placeholder="name@email.com" required>
                     <label for="name">Name</label>
@@ -53,6 +53,8 @@
                     <input name="numGuests" id="numGuests" type="number" step="1" min="1" max="20" required>
                     <label for="message">Your Message (Not Required)</label>
                     <textarea class="contact-input" name="message" id="message"></textarea>
+                    <div data-netlify-recaptcha="true"></div>
+                    <input class="bot-input">
                     <button class="form-submit" type ="submit">Submit</button>
                 </form>
             </div>
