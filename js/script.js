@@ -16,11 +16,6 @@ window.addEventListener('load',function(){
     const gallery_curtain_open_button = this.document.getElementById('gallery-button');
     const gallery_curtain_close_button = this.document.getElementById('gallery-curtain-close-button');
     const gallery_curtain = this.document.getElementById("gallery-curtain");
-
-    var recaptcha = document.getElementById('rc-anchor-container');
-    if(recaptcha != null){
-        recaptcha.style.width = "100%!important";
-    }
     
     document.querySelectorAll('.curtain-link').forEach(function(item) {
         item.addEventListener('click',function(){

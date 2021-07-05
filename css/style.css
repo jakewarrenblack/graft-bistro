@@ -129,30 +129,6 @@ p,li,small{
     width:100%;
 }
 
-iframe{
-    width:100%!important;
-    border-right:1px solid #d3d3d3;
-}
-
-#rc-anchor-container{
-    width:100%!important;
-}
-
-iframe #rc-anchor-container{
-    width:100%!important;
-}
-
-.rc-anchor, .rc-anchor-normal, .rc-anchor-light{
-    width:100%!important;
-}
-
-.g-recaptcha *{
-    width:100%!important;
-}
-
-.g-recaptcha{
-    padding:0.5rem 0;
-}
 
 input,label,textarea{
     margin:0.4rem 0;
