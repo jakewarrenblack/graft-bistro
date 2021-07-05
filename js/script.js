@@ -20,6 +20,9 @@ window.addEventListener('load',function(){
     var recaptcha = document.getElementById('rc-anchor-container');
 
     if(recaptcha){
+        this.alert(
+            'recaptcha'
+        )
         recaptcha.style.width = "100%!important";
     }
 
