@@ -129,6 +129,14 @@ p,li,small{
     width:100%;
 }
 
+iframe{
+    width:100%!important;
+    border-right:1px solid #d3d3d3;
+}
+
+.g-recaptcha{
+    padding:0.5rem 0;
+}
 
 input,label,textarea{
     margin:0.4rem 0;
