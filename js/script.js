@@ -18,13 +18,7 @@ window.addEventListener('load',function(){
     const gallery_curtain = this.document.getElementById("gallery-curtain");
 
     var recaptcha = document.getElementById('rc-anchor-container');
-
-    if(recaptcha){
-        this.alert(
-            'recaptcha'
-        )
-        recaptcha.style.width = "100%!important";
-    }
+    recaptcha.style.width = "100%!important";
 
     document.querySelectorAll('.curtain-link').forEach(function(item) {
         item.addEventListener('click',function(){
