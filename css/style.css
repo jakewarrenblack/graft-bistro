@@ -134,6 +134,14 @@ iframe{
     border-right:1px solid #d3d3d3;
 }
 
+#rc-anchor-container{
+    width:100%!important;
+}
+
+.g-recaptcha div{
+    width:100%!important;
+}
+
 .g-recaptcha{
     padding:0.5rem 0;
 }
