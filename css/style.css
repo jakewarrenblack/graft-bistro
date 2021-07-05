@@ -129,6 +129,10 @@ p,li,small{
     width:100%;
 }
 
+.g-recaptcha{
+    padding:0.5rem 0;
+}
+
 input,label,textarea{
     margin:0.4rem 0;
 }
