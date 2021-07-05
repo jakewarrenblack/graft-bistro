@@ -216,6 +216,10 @@ https://flickity.metafizzy.co
     height: 100%;
   }
 
+  .carousel-cell-image{
+    filter:saturate(1);
+  }
+
   .carousel,
   .carousel-cell,
   .flickity-viewport,
