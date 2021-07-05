@@ -1,5 +1,6 @@
 window.addEventListener('load',function(){
-    this.document.getElementsByTagName('body').classList.remove('preload');
+    var body = document.getElementsByTagName('body')[0];
+    body.classList.remove('preload');
 
     const curtain = document.getElementById('curtain');
     const curtain_button = this.document.getElementById('curtain-button');
