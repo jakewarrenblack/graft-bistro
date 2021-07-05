@@ -138,6 +138,10 @@ iframe{
     width:100%!important;
 }
 
+.rc-anchor{
+    width:100%!important;
+}
+
 .g-recaptcha *{
     width:100%!important;
 }
