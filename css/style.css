@@ -1,4 +1,4 @@
-.preload:not(.animation){
+.preload *:not(.animation){
     -webkit-transition: none !important;
     -moz-transition: none !important;
     -ms-transition: none !important;
